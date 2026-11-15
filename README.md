@@ -58,4 +58,4 @@ Edit files in `game/source/`, not the generated `index.html`. The root `index.ht
 
 - Space-weather records: NASA DONKI (public NASA data, `scripts/fetch_donki.py` refreshes the archive).
 - 3D library: Three.js (MIT), see `game/THREE-LICENSE.txt`.
-- Built by the team for NASA Space Apps Challenge 2026.
+- Built by Team Vision for NASA Space Apps Challenge 2026.
