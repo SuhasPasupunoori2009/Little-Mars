@@ -1,6 +1,6 @@
 
 /* ===== Little Mars v4 ===== */
-.v4tag{display:block;font:600 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-top:2px}
+.v4tag{display:inline;font:inherit;font-weight:800;letter-spacing:inherit;text-transform:none;color:var(--amber);margin:0}
 .v4menu{margin:6px 0 2px}.v4modebtn{width:100%;max-width:none;text-align:left;display:flex;gap:6px;align-items:center}.v4modebtn b{color:var(--amber);flex:1}
 .v4menu2 .menu-row{margin-top:6px}
 #waterStat[hidden]{display:none}

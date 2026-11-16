@@ -10,7 +10,7 @@
   const more = v4El('div', 'v4menu2', `<div class="menu-row"><button class="secondary" id="v4JournalBtn">Exploration journal</button><button class="secondary" id="v4DbBtn">Science database</button></div><div class="menu-row"><button class="secondary" id="v4SaveBtn">Saved missions</button><button class="secondary" id="v4CreditsBtn">Credits</button></div>`);
   const rows = document.querySelectorAll('.welcome .menu-row'); rows[rows.length - 1].after(more);
   $('v4ModeBtn').onclick = v4ModeCard; $('v4JournalBtn').onclick = v4JournalCard; $('v4DbBtn').onclick = v4Database; $('v4CreditsBtn').onclick = v4Credits; $('v4SaveBtn').onclick = () => v4Saves();
-  const h = document.querySelector('.welcome .wm'); if (h && !h.querySelector('.v4tag')) h.appendChild(v4El('span', 'v4tag', 'Storm Watch'));
+  const h = document.querySelector('.welcome .wm'); if (h && !h.querySelector('.v4tag')) h.appendChild(v4El('span', 'v4tag', 'storm watch'));
 }
 function v4ModeLabel() { const md = M4.MODES[v4Mode]; $('v4ModeName').textContent = md.name + (v4Mode === 'custom' && v4Opts.custom ? ' (' + v4Opts.custom.length + ' objectives)' : v4Mode === 'explore' ? (v4Opts.supplies ? ' · supplies on' : ' · supplies off') : ''); $('start').textContent = v4Mode === 'challenge' ? 'Play the Storm Watch Challenge →' : v4Mode === 'lab' ? 'Open the Science Lab →' : 'Let’s land on Mars →'; }
 function v4ModeCard() {
