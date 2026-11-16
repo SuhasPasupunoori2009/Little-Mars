@@ -1,4 +1,4 @@
-# Little Mars
+# Little Mars: An Outpost Adventure
 
 **NASA Space Apps Challenge 2026 entry.** A browser game for ages 7 to 15 about keeping a small Mars base safe from space weather, using real records from NASA's DONKI database (Database Of Notifications, Knowledge, Information).
 
