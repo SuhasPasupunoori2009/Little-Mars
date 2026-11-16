@@ -1,5 +1,5 @@
-LITTLE MARS: STORM WATCH
-=======================
+LITTLE MARS
+===========
 This is version 4. Everything from v3 (Storm Watch) is still here; the v3 notes follow below, unchanged.
 
 IMPORTANT, PLEASE READ: STATUS OF THIS BUILD
@@ -55,7 +55,7 @@ THE v3 README FOLLOWS
 ---------------------------------------------------------------------------------------------------------
 
 LITTLE MARS v3 — STORM WATCH
-A 3D Mars exploration and colony game for ages 7–12, driven by real NASA space-weather data.
+A 3D Mars exploration and colony game for ages 7–15, driven by real NASA space-weather data.
 
 PLAY
 1. Extract this ZIP completely.

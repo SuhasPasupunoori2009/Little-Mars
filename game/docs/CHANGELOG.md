@@ -7,7 +7,7 @@ Times and dates in these docs are New York time. Times shown inside the game (da
 
 - **Customize your astronaut** on the start screen: 11 helmets (classic, fox, cat, bunny, bear, panda, frog, dino, owl, unicorn, alien), suit, trim, visor and backpack colours, and a chest patch (star, heart, rocket, planet). "Surprise me" and "Start over" are included. The choice is saved in the profile (`look`) and only whitelisted ids are loaded, so old saves and imports still work. Code: `v4/look.js`, rules in `model4.js`.
 - **Camera**: drag with the mouse or one finger to turn and tilt, wheel or two-finger pinch to zoom. A quick click or tap still sends the astronaut there. Rover drive mode keeps its own camera.
-- One name everywhere: the page title, welcome tag, credits and README now say "Little Mars: Storm Watch" (it was "The Living Red Planet" in the game).
+- One name everywhere: the page title, welcome tag, credits and README now say "Little Mars" (the game used to call itself "The Living Red Planet" and "Storm Watch"; "Original Storm Watch" and "Storm Watch Challenge" stay as mode names).
 - Tests: 9 new look checks in `test-v4.cjs` (2216 v4 checks).
 
 ## v4.1 (2026-11-16) fixes after review of the v4 build
