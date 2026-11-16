@@ -38,7 +38,7 @@ Text is at least 12 px, tap targets are at least 44 px, and meaning is never car
 ## Status, stated plainly
 
 - Automated checks pass: model, camp, navigation, v3 (152), v4 (2216), a headless-browser smoke test, a real-mouse end-to-end test, and a chores test. The smoke test has failed intermittently on a slow reload; it passes when run alone.
-- **Not yet playtested with children.** We have not measured frame rates on a range of devices and have not done a screen-reader pass.
+- **Playtested informally by a 12-year-old, and many changes came from that.** A formal playtest with more children has not been run. We have not measured frame rates on a range of devices and have not done a screen-reader pass.
 - The sounds are synthesized in the browser and have not been reviewed by ear across devices.
 
 ## Build from source
