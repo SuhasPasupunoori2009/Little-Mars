@@ -10,7 +10,7 @@
   const more = v4El('div', 'v4menu2', `<div class="menu-row"><button class="secondary" id="v4JournalBtn">Exploration journal</button><button class="secondary" id="v4DbBtn">Science database</button></div><div class="menu-row"><button class="secondary" id="v4SaveBtn">Saved missions</button><button class="secondary" id="v4CreditsBtn">Credits</button></div>`);
   const rows = document.querySelectorAll('.welcome .menu-row'); rows[rows.length - 1].after(more);
   $('v4ModeBtn').onclick = v4ModeCard; $('v4JournalBtn').onclick = v4JournalCard; $('v4DbBtn').onclick = v4Database; $('v4CreditsBtn').onclick = v4Credits; $('v4SaveBtn').onclick = () => v4Saves();
-  const h = document.querySelector('.welcome .wm'); if (h && !h.querySelector('.v4tag')) h.appendChild(v4El('span', 'v4tag', 'v4 · The Living Red Planet'));
+  const h = document.querySelector('.welcome .wm'); if (h && !h.querySelector('.v4tag')) h.appendChild(v4El('span', 'v4tag', 'Storm Watch'));
 }
 function v4ModeLabel() { const md = M4.MODES[v4Mode]; $('v4ModeName').textContent = md.name + (v4Mode === 'custom' && v4Opts.custom ? ' (' + v4Opts.custom.length + ' objectives)' : v4Mode === 'explore' ? (v4Opts.supplies ? ' · supplies on' : ' · supplies off') : ''); $('start').textContent = v4Mode === 'challenge' ? 'Play the Storm Watch Challenge →' : v4Mode === 'lab' ? 'Open the Science Lab →' : 'Let’s land on Mars →'; }
 function v4ModeCard() {
@@ -41,7 +41,7 @@ function v4Database() {
 <p class="source-note">Read more (needs internet): <a href="https://ccmc.gsfc.nasa.gov/tools/DONKI/" target="_blank" rel="noopener">NASA DONKI ↗</a> · <a href="https://science.nasa.gov/mars/" target="_blank" rel="noopener">NASA Mars exploration ↗</a> · <a href="https://sdo.gsfc.nasa.gov/" target="_blank" rel="noopener">NASA Solar Dynamics Observatory ↗</a> · <a href="https://www.esa.int/Science_Exploration/Space_Science/Space_weather" target="_blank" rel="noopener">ESA space weather ↗</a>. The game never contacts these sites by itself.</p>`);
 }
 function v4Credits() {
-  modalCard(`<h1>Credits</h1><div class="card"><strong>Little Mars v4: The Living Red Planet</strong><p>An independent educational game for ages 7 to 12. Not endorsed by NASA or ESA.</p></div>
+  modalCard(`<h1>Credits</h1><div class="card"><strong>Little Mars: Storm Watch</strong><p>An independent educational game for ages 7 to 12. Not endorsed by NASA or ESA.</p></div>
 <table class="data-table"><tr><td>Space-weather data</td><td>NASA CCMC DONKI (public data), bundled as a static archive</td></tr><tr><td>3D engine</td><td>Three.js 0.160.1, MIT licence (text included in the project)</td></tr><tr><td>Models and textures</td><td>Built in code for this game; no downloaded art</td></tr><tr><td>Sound and music</td><td>Made in the browser with Web Audio; no audio files</td></tr><tr><td>Voice</td><td>Your device’s own speech voice, if you switch read-aloud on</td></tr><tr><td>Privacy</td><td>No accounts, no tracking. Progress stays in this browser.</td></tr></table>`);
 }
 

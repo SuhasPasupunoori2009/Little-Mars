@@ -1,5 +1,5 @@
-LITTLE MARS v4: THE LIVING RED PLANET
-=====================================
+LITTLE MARS: STORM WATCH
+=======================
 This is version 4. Everything from v3 (Storm Watch) is still here; the v3 notes follow below, unchanged.
 
 IMPORTANT, PLEASE READ: STATUS OF THIS BUILD
